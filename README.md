@@ -1,5 +1,4 @@
-
-# docker-build-google-maps-scraper
+# Docker Build Google Maps Scraper
 
 This repository contains instructions on how to make a docker container that can run [omkarcloud](https://github.com/omkarcloud)'s [google-maps-scraper](https://github.com/omkarcloud/google-maps-scraper). I created this because I wasn't able to build  the original Docker image to run.
 
@@ -39,9 +38,13 @@ docker run --name YOUR_CONTAINER_NAME --rm -v ./output:/waza/google_maps_scraper
 ```
 Now that the Container is running you can query it by running the main.py script to make sure it works:
 ```bash
-docker exec -it YOUR_CONTAINER_NAME max_nr_of_businesses max_nr_of_reviews query...
+docker exec -it YOUR_CONTAINER_NAME python main.py max_nr_of_businesses max_nr_of_reviews query...
 ```
 On success it will show where the files where stored inside the container, if you mounted the output folder to your machine you will probably find them there.
+
+## Demo
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/fmUhoHXErhY/0.jpg)](https://www.youtube.com/watch?v=fmUhoHXErhY)
+
 ## Authors
 
 - [@waz4](https://www.github.com/waz4)
