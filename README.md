@@ -1,7 +1,7 @@
 
 # docker-build-google-maps-scraper
 
-This repository contains instructions on how to make a docker container that can run omkarcloud's google-maps-scraper. I created this because I wasn't able to get the original google-maps-scraper docker container to run.
+This repository contains instructions on how to make a docker container that can run [omkarcloud](https://github.com/omkarcloud)'s [google-maps-scraper](https://github.com/omkarcloud/google-maps-scraper). I created this because I wasn't able to build  the original Docker image to run.
 
 
 
