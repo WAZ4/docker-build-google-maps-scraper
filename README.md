@@ -24,7 +24,7 @@ And thats all you need to download.
 You can now build the container image.
 
 ```bash
-docker build --platform linux/amd64 -t python-botasaurus .
+docker build --platform linux/amd64 -t IMAGE_NAME .
 ```
 
 To run the container there are somethings you should pay attention to:
